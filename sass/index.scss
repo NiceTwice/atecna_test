@@ -94,6 +94,7 @@ body, html {
       position: relative;
       display: flex;
       flex-shrink: 0;
+      border-right:1px solid #a92f07;
       &.active {
         text-shadow: 0 1px 0 rgba(#fff, 0.75);
         color: #d43219;
@@ -101,9 +102,6 @@ body, html {
       }
       &:not(:first-child){
         border-left: 1px solid #e3693f;
-      }
-      &:not(:last-child) {
-        border-right:1px solid #a92f07;
       }
       &.home {
         padding-right: 15px;

@@ -109,41 +109,38 @@ body, html {
   position: relative;
   display: flex;
   flex-shrink: 0;
+  border-right: 1px solid #a92f07;
 }
-/* line 97, ../sass/index.scss */
+/* line 98, ../sass/index.scss */
 .page nav a.btn.active {
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
   color: #d43219;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.11), rgba(255, 255, 255, 0.11)), linear-gradient(#f9bb24, #f9bb24);
 }
-/* line 102, ../sass/index.scss */
+/* line 103, ../sass/index.scss */
 .page nav a.btn:not(:first-child) {
   border-left: 1px solid #e3693f;
 }
-/* line 105, ../sass/index.scss */
-.page nav a.btn:not(:last-child) {
-  border-right: 1px solid #a92f07;
-}
-/* line 108, ../sass/index.scss */
+/* line 106, ../sass/index.scss */
 .page nav a.btn.home {
   padding-right: 15px;
   padding-left: 56px;
   flex-grow: 0;
 }
-/* line 115, ../sass/index.scss */
+/* line 113, ../sass/index.scss */
 .page .breadcrump {
   line-height: 1;
   padding: 0 56px;
   margin: 9px 0 23px 0;
   font-size: 10px;
 }
-/* line 121, ../sass/index.scss */
+/* line 119, ../sass/index.scss */
 .page .content {
   padding: 0 56px 9px 56px;
   display: flex;
   flex-direction: column;
 }
-/* line 125, ../sass/index.scss */
+/* line 123, ../sass/index.scss */
 .page .content h1 {
   border-left: 4px solid #5c5646;
   border-bottom: 2px solid #f9bc24;
@@ -153,35 +150,35 @@ body, html {
   padding: 5px 6px;
   margin-bottom: 14px;
 }
-/* line 134, ../sass/index.scss */
+/* line 132, ../sass/index.scss */
 .page .content .media {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-/* line 138, ../sass/index.scss */
+/* line 136, ../sass/index.scss */
 .page .content .media .item {
   display: flex;
   flex-direction: column;
 }
-/* line 141, ../sass/index.scss */
+/* line 139, ../sass/index.scss */
 .page .content .media .item:not(:last-child) {
   margin-bottom: 23px;
 }
-/* line 144, ../sass/index.scss */
+/* line 142, ../sass/index.scss */
 .page .content .media .item .desc {
   font-size: 10px;
   margin-top: 4px;
   text-align: center;
 }
-/* line 151, ../sass/index.scss */
+/* line 149, ../sass/index.scss */
 .page .content .media .carousel .owl-dots {
   counter-reset: dots;
   display: flex;
   margin-bottom: 2px;
   justify-content: center;
 }
-/* line 157, ../sass/index.scss */
+/* line 155, ../sass/index.scss */
 .page .content .media .carousel .owl-dot {
   width: 14px;
   height: 14px;
@@ -197,25 +194,25 @@ body, html {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.23), rgba(255, 255, 255, 0.23)), linear-gradient(#db3d07, #db3d07);
   border: solid 1px #ac3109;
 }
-/* line 171, ../sass/index.scss */
+/* line 169, ../sass/index.scss */
 .page .content .media .carousel .owl-dot:not(:last-child) {
   margin-right: 5px;
 }
-/* line 174, ../sass/index.scss */
+/* line 172, ../sass/index.scss */
 .page .content .media .carousel .owl-dot:hover {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.23), rgba(255, 255, 255, 0.23)), linear-gradient(#db3d07, #db3d07);
 }
-/* line 177, ../sass/index.scss */
+/* line 175, ../sass/index.scss */
 .page .content .media .carousel .owl-dot.active {
   color: #d43219;
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.23), rgba(255, 255, 255, 0.23)), linear-gradient(#ffffff, #ffffff);
 }
-/* line 182, ../sass/index.scss */
+/* line 180, ../sass/index.scss */
 .page .content .media .carousel .owl-dot:before {
   counter-increment: dots;
   content: counter(dots);
 }
-/* line 186, ../sass/index.scss */
+/* line 184, ../sass/index.scss */
 .page .content .media .carousel .owl-prev, .page .content .media .carousel .owl-next {
   display: flex;
   align-items: center;
@@ -228,70 +225,70 @@ body, html {
   transition: background-color .3s;
   background-color: rgba(212, 50, 25, 0.3);
 }
-/* line 197, ../sass/index.scss */
+/* line 195, ../sass/index.scss */
 .page .content .media .carousel .owl-prev:hover, .page .content .media .carousel .owl-next:hover {
   background-color: rgba(212, 50, 25, 0.5);
 }
-/* line 201, ../sass/index.scss */
+/* line 199, ../sass/index.scss */
 .page .content .media .carousel .owl-prev {
   left: 0;
 }
-/* line 204, ../sass/index.scss */
+/* line 202, ../sass/index.scss */
 .page .content .media .carousel .owl-next {
   right: 0;
 }
-/* line 208, ../sass/index.scss */
+/* line 206, ../sass/index.scss */
 .page .content .media video {
   width: 100%;
 }
-/* line 213, ../sass/index.scss */
+/* line 211, ../sass/index.scss */
 .page .section {
   display: flex;
   justify-content: space-between;
 }
-/* line 216, ../sass/index.scss */
+/* line 214, ../sass/index.scss */
 .page .section.info-section {
   margin-bottom: 24px;
 }
-/* line 219, ../sass/index.scss */
+/* line 217, ../sass/index.scss */
 .page .section h3 {
   font-family: Georgia, serif;
   font-size: 16.5px;
   font-weight: bold;
   margin-bottom: 10px;
 }
-/* line 225, ../sass/index.scss */
+/* line 223, ../sass/index.scss */
 .page .section p {
   font-size: 12px;
   line-height: 1.2;
 }
-/* line 229, ../sass/index.scss */
+/* line 227, ../sass/index.scss */
 .page .section .info {
   margin-right: 60px;
   word-spacing: .5px;
 }
-/* line 232, ../sass/index.scss */
+/* line 230, ../sass/index.scss */
 .page .section .info > div:not(:last-child) {
   margin-bottom: 20px;
 }
-/* line 236, ../sass/index.scss */
+/* line 234, ../sass/index.scss */
 .page .section .media {
   width: 284px;
   flex-shrink: 0;
 }
-/* line 241, ../sass/index.scss */
+/* line 239, ../sass/index.scss */
 .page #contactForm {
   display: flex;
   flex-direction: column;
   margin: 18px 0 10px 0;
 }
-/* line 245, ../sass/index.scss */
+/* line 243, ../sass/index.scss */
 .page #contactForm .inputs {
   display: flex;
   justify-content: space-between;
   margin-bottom: 14px;
 }
-/* line 249, ../sass/index.scss */
+/* line 247, ../sass/index.scss */
 .page #contactForm .inputs input, .page #contactForm .inputs textarea {
   width: 100%;
   padding: 10px 12px;
@@ -321,31 +318,31 @@ body, html {
   font-weight: bold;
   color: #f9bc24;
 }
-/* line 263, ../sass/index.scss */
+/* line 261, ../sass/index.scss */
 .page #contactForm .inputs input:not(:last-child) {
   margin-bottom: 13px;
 }
-/* line 267, ../sass/index.scss */
+/* line 265, ../sass/index.scss */
 .page #contactForm .inputs textarea {
   resize: none;
   height: 100%;
 }
-/* line 271, ../sass/index.scss */
+/* line 269, ../sass/index.scss */
 .page #contactForm .inputs .left, .page #contactForm .inputs .right {
   width: 297px;
 }
-/* line 275, ../sass/index.scss */
+/* line 273, ../sass/index.scss */
 .page #contactForm .button-set {
   display: flex;
   justify-content: flex-end;
 }
-/* line 278, ../sass/index.scss */
+/* line 276, ../sass/index.scss */
 .page #contactForm .button-set .btn {
   border: solid 1px #ac3109;
   border-radius: 10px;
   padding: 4px 21px 6px 21px;
 }
-/* line 285, ../sass/index.scss */
+/* line 283, ../sass/index.scss */
 .page footer {
   height: 31px;
   position: relative;
@@ -358,7 +355,7 @@ body, html {
   color: #595846;
   text-align: center;
 }
-/* line 296, ../sass/index.scss */
+/* line 294, ../sass/index.scss */
 .page footer .credits {
   position: absolute;
   width: 100%;

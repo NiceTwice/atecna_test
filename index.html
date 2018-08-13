@@ -74,7 +74,7 @@
             </div>
             <div class="media">
                 <div class="item">
-                    <video controls src="./assets/video/video.ogv">
+                    <video controls src="./assets/video/video.mp4">
 
                     </video>
                     <p class="desc orange-dark2-clr">
@@ -149,6 +149,10 @@
       nav: true,
       navText: ['<img src="./assets/images/caret-left.png" alt="nav"/>', '<img src="./assets/images/caret-right.png" alt="nav"/>']
     });
+    $("#contactForm").submit(function(e) {
+      e.preventDefault();
+      alert('form submitted');
+    })
   });
 </script>
 </html>
