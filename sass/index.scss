@@ -53,8 +53,8 @@ body, html {
   border-radius: 10px;
   background-color: rgba(255,255,255,0.7);
   border: 1px solid #b5b5b5;
-  display: flex;
-  flex-direction: column;
+  @include display-flex();
+  @include flex-direction(column);
   @include box-shadow(0px 0px 10px 3px rgba(0,0,0,0.21));
   * {
     @include box-sizing(border-box);
@@ -64,9 +64,12 @@ body, html {
     overflow: hidden;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    display: flex;
-    justify-content: space-between;
+    @include display-flex();
+    @include justify-content(space-between);
     background-image: linear-gradient(to top, rgba(#000, .1), rgba(#fff, .1));
+    .logo {
+      margin-top: 5px;
+    }
   }
   .btn {
     font-size: 16px;
@@ -74,9 +77,9 @@ body, html {
     color: #fff;
     cursor: pointer;
     text-shadow: 0 1px 0 rgba(84, 19, 9, 0.75);
-    background-image: linear-gradient(to top, rgba(#000, .23), rgba(#fff, .23)), linear-gradient(#db3d07, #db3d07);
+    @include background-image(linear-gradient(to top, rgba(#000, .23), rgba(#fff, .23)), linear-gradient(#db3d07, #db3d07));
     &:hover {
-      background-image: linear-gradient(to bottom, rgba(#000, .23), rgba(#fff, .23)), linear-gradient(#db3d07, #db3d07);
+      @include background-image(linear-gradient(to bottom, rgba(#000, .23), rgba(#fff, .23)), linear-gradient(#db3d07, #db3d07));
     }
   }
   nav {
@@ -117,7 +120,7 @@ body, html {
     font-size: 10px;
   }
   .content {
-    padding: 0 56px 9px 56px;
+    padding: 0 56px 11px 56px;
     display: flex;
     flex-direction: column;
     h1 {
@@ -216,7 +219,7 @@ body, html {
     }
     h3 {
       font-family: Georgia, serif;
-      font-size: 16.5px;
+      font-size: 16px;
       font-weight: bold;
       margin-bottom: 10px;
     }
@@ -239,7 +242,7 @@ body, html {
   #contactForm {
     display: flex;
     flex-direction: column;
-    margin: 18px 0 10px 0;
+    margin-top: 18px;
     .inputs {
       display: flex;
       justify-content: space-between;
